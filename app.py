@@ -44,7 +44,7 @@ app.layout = html.Div(children=[
                         {'label':list_of_numbers[0], 'value':list_of_numbers[0]},
                         {'label':list_of_numbers[1], 'value':list_of_numbers[1]},
                         ],
-                value='one',
+                value='10s',
                 ),
         ],className='two columns'),
         html.Div([
