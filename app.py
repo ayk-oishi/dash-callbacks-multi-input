@@ -8,10 +8,10 @@ from dash.dependencies import Input, Output, State
 
 myheading1='How to use callbacks with multiple inputs'
 tabtitle = 'lightsabers!'
-list_of_colors=['red', 'green', 'blue']
-list_of_numbers=['one', 'two', 'three']
+list_of_colors=['Ayaka', 'John']
+list_of_numbers=['10s', '20s']
 sourceurl = 'https://dash.plot.ly/getting-started-part-2'
-githublink = 'https://github.com/austinlasseter/dash-callbacks-multi-input'
+githublink = 'https://github.com/ayk-oishi/dash-callbacks-multi-input'
 
 
 ########## Set up the chart
@@ -33,7 +33,6 @@ app.layout = html.Div(children=[
                 options=[
                         {'label':list_of_colors[0], 'value':list_of_colors[0]},
                         {'label':list_of_colors[1], 'value':list_of_colors[1]},
-                        {'label':list_of_colors[2], 'value':list_of_colors[2]},
                         ],
                 value='choose',
                 ),
@@ -44,7 +43,6 @@ app.layout = html.Div(children=[
                 options=[
                         {'label':list_of_numbers[0], 'value':list_of_numbers[0]},
                         {'label':list_of_numbers[1], 'value':list_of_numbers[1]},
-                        {'label':list_of_numbers[2], 'value':list_of_numbers[2]},
                         ],
                 value='one',
                 ),
